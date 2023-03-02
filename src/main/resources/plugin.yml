@@ -1,0 +1,22 @@
+name: Farming666
+version: '${project.version}'
+main: entora.farming666.Farming666
+api-version: 1.19
+author: Entora
+description: The best farming plugin ever!
+
+
+commands:
+  trample:
+    description: Toggle trampling off or on for yourself or target player!
+    usage: /trample
+
+  modtrample:
+    description: Toggle if a player is a mod or not within the plugin
+    usage: /modtrample <player>
+
+  cantrample:
+    description: Toggle if a player execute the trample command. Moderators only!
+    usage: /cantrample <player>
+
+
